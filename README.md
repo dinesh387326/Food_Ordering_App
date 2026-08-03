@@ -14,6 +14,85 @@ To improve performance and responsiveness, asynchronous operations are implement
 
 ---
 
+## ▶️ Getting Started
+
+### Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+* Android Studio (latest stable version recommended)
+* Android SDK
+* Kotlin support (included with Android Studio)
+* A Firebase project configured with **Firebase Realtime Database** and **Firebase Authentication**
+* Internet connection for real-time database synchronization
+
+---
+
+### Installation
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/<your-username>/<repository-name>.git
+```
+
+2. Open **Android Studio**.
+
+3. Select **Open an Existing Project** and choose the cloned project directory.
+
+4. Allow Android Studio to:
+
+   * Sync the Gradle files
+   * Download all required dependencies
+
+5. Create a Firebase project from the **Firebase Console** and enable:
+
+   * Firebase Authentication
+   * Firebase Realtime Database
+
+6. Download the `google-services.json` file from your Firebase project and place it inside the project's **app/** directory.
+
+7. Configure your Firebase Realtime Database rules and initialize the required collections/data if applicable.
+
+8. Connect an Android device with **USB Debugging** enabled or launch an Android Emulator.
+
+9. Click **Run ▶** or press **Shift + F10** to build and launch the application.
+
+---
+
+### Running the Application
+
+After launching the application, users can:
+
+#### Customer
+
+* Register or log in securely.
+* Browse available food items.
+* Search menu items.
+* Add items to the cart.
+* Place food orders.
+* Track delivery status in real time.
+* View previous orders.
+
+#### Vendor
+
+* Log in to the vendor dashboard.
+* Manage menu items and stock availability.
+* Receive incoming customer orders.
+* Update order status.
+* Synchronize inventory and order information through Firebase.
+
+---
+
+### Build Tools
+
+* Android Studio
+* Gradle
+* Android SDK
+* Kotlin Compiler
+* Firebase Realtime Database
+* Firebase Authentication
+
 ## 🎯 Objectives
 
 * Build a real-time food ordering platform for customers and vendors.
